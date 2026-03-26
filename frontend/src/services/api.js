@@ -1,5 +1,5 @@
-const BASE_URL = 'http://localhost:5000/api';
-// const BASE_URL = 'https://glow-green.onrender.com/api';
+// const BASE_URL = 'http://localhost:5000/api';
+const BASE_URL = 'https://glow-green.onrender.com/api';
 export const SERVER_URL = 'https://glowgreen-backend.onrender.com';
 
 const getToken = () => localStorage.getItem('gg_token');
