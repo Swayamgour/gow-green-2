@@ -1,0 +1,65 @@
+.price-container {
+    width: 95%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+/* TOP GREEN HEADER */
+.main-header {
+    background: #8cc63f;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* ORANGE SUB HEADER */
+.sub-header {
+    background: #f47c20;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px;
+    margin-top: 5px;
+}
+
+/* TABLE */
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+
+/* HEADERS */
+.price-table th {
+    background: #8cc63f;
+    color: #000;
+    border: 1px solid #000;
+    padding: 6px;
+    font-size: 13px;
+}
+
+/* CELLS */
+.price-table td {
+    border: 1px solid #000;
+    padding: 6px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* ALTERNATE ROW COLOR */
+.price-table tbody tr:nth-child(even) {
+    background: #dfe8d6;
+}
+
+/* IMAGE CELL */
+.img-cell img {
+    width: 120px;
+    height: auto;
+}
+
+/* PRICE COLUMN */
+.price {
+    font-weight: bold;
+}
